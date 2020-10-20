@@ -49,6 +49,10 @@ spec:
               value: "4444"
             - name: REMOTE_HOST
               value: ""
+            - name: NODE_MAX_SESSION
+              value: "8"
+            - name: NODE_MAX_INSTANCES
+              value: "8"
           ports:
             - containerPort: 4444
               protocol: TCP
